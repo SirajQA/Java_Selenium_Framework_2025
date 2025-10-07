@@ -24,7 +24,7 @@ public class LoginTest extends BaseTest {
 		
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.closeLoginPopup();
-		//Test 2
+		//Test 3
 		String PageTitle = loginPage.getPageTitle();
 		
 		System.out.println("Page Title: "+PageTitle);
